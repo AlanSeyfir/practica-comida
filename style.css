@@ -1,0 +1,162 @@
+* {
+  font-family: Tahoma;
+}
+
+body {
+    /*Fondo a cambiar*/
+    /*background-image: url(https://besthqwallpapers.com/Uploads/1-11-2019/110193/thumb2-4k-red-chinese-background-wavy-chinese-patterns-chinese-ornament-background-chinese-patterns.jpg);*/
+    background-image: url(img/background.jpg);
+}
+
+.wrapper {
+  margin: 120px;
+  background: #fff;
+  /*
+    Queria intentar agregarle padding para que no se viera pegado pero no me convencio
+    el header y footer no se pegaban en las orillas asi que mejor le quite el padding
+    padding: 50px;
+  */
+}
+
+h1 {
+    background: #2193b0;  /* fallback for old browsers */
+    background: linear-gradient(to right, #4ac8e7, #6dd5ed, #4ac8e7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*
+        background: #A9203E;
+        background: linear-gradient(to bottom, #A9203E 0%, #9A112F 100%);
+    */
+    text-align: center;
+    font-size: 50px;
+    padding: 0.5em;
+    margin: 0px;
+    color: #fff;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(173, 166, 166);
+    font-style: italic;
+}
+
+h3{
+    color: rgb(216, 87, 87);
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    background: #2193b0;  /* fallback for old browsers */
+    background: linear-gradient(to right, #4ac8e7, #6dd5ed, #4ac8e7);
+    padding: 14px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    padding: 8px 14px;
+    background: #6dd5ed;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background: #54c7e4;
+}
+
+.white-space{
+    color: #fff;
+}
+
+.wrapper aside{
+    width: 30%;
+    margin: 0 1.5%;
+    padding-top: 33px;
+    float: right;
+}
+
+hgroup{
+    padding-top: 12px;
+}
+
+figure{
+    margin: 0px;
+    text-align: center;
+    font-style: italic;
+    text-indent: 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    margin: 0.5em;
+    padding: 0.4em;
+}
+
+.column{
+    flex: 50%;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+
+aside{
+    border-left: 1px solid  rgb(216, 87, 87, 0.2);
+    font-style: none;
+}
+
+.title-aside{
+    font-style: normal;
+}
+
+.popular-recipes{
+    color: rgb(216, 87, 87);
+    padding-left: 20px;
+}
+
+.popular-recipes a{
+    display: grid;
+    padding: 20px 0px 12px 20px;
+    color: rgb(216, 87, 87);
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 1px solid  rgb(216, 87, 87, 0.2);
+}
+
+.popular-recipes a:hover{
+    color: rgb(231, 148, 148);
+}
+
+.contact-details{
+    padding-left: 20px;
+    padding-bottom: 80px;
+}
+
+.contact-details h2{
+    color: rgb(216, 87, 87);
+}
+
+.contact-details p{
+    font-size: 20px;
+}
+
+
+footer{
+    margin: 0px;
+    padding: 20px;
+    background: linear-gradient(to right, #4ac8e7, #6dd5ed, #4ac8e7);
+    color: #fff;
+}
